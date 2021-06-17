@@ -13,7 +13,7 @@ close(10)
 
 open(13,file="radii.txt",status="old")
 read(13,*)radius
-open (12, file ="Area.txt",status="new")
+open (12, file ="Area.txt",status="old")
 
 !write(10,*)radii
 
@@ -21,11 +21,11 @@ open (12, file ="Area.txt",status="new")
 
 
 
-do j = 1,20 
+!do j = 1,20 
 area = pi*(radius**2)
 write(12,*)area
 
-end do
+!end do
 
 
 close(12)
