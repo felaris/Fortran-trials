@@ -13,7 +13,7 @@ close(10)
 
 open(13,file="radii.txt",status="old")
 read(13,*)radius
-open (12, file ="Area.txt",status="old")
+open (12, file ="Area.txt",status="new")
 
 !write(10,*)radii
 
