@@ -21,11 +21,11 @@ open (12, file ="Area.txt",status="old")
 
 
 
-!do j = 1,20 
+
 area = pi*(radius**2)
 write(12,*)area
 
-!end do
+
 
 
 close(12)
